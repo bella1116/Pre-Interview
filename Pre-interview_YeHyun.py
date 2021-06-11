@@ -13,9 +13,9 @@ class Tensor():
         return count
 
     #Adjust the quantity of the list 'data' to the 'count' value.
-    def Add(self, data, max_count):
+    def Add(self, data, count):
         a_data = []
-        for i in range(max_count):
+        for i in range(count):
             try:
                 a_data.append(data[i])
             except:
